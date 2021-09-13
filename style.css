@@ -56,9 +56,7 @@ img {
 
 .navbar {
   display: flex;
-
   align-items: center;
-
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -101,12 +99,15 @@ img {
 
 .about-paragraphs {
   display: flex;
-  margin: 30px 10px;
+  margin: 20px 30px;
+  padding: 10px;
+  font-size: 18px;
 }
 
-.about-paragraphs,
-p {
+.about-paragraphs p {
   margin: 10px;
+
+  line-height: 1.5;
 }
 
 .email-link {
@@ -122,6 +123,7 @@ p {
 }
 
 .col {
+  display: flex;
   align-content: stretch;
 }
 
@@ -133,4 +135,9 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+
+.about-images {
+  display: flex;
+  align-content: stretch;
 }
