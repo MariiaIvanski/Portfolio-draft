@@ -40,6 +40,10 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.container {
+  padding: 30px 0;
+}
+
 .img-fluid {
   max-width: 100%;
   height: auto;
