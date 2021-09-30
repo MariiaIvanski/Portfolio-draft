@@ -54,18 +54,6 @@ img {
   z-index: 1030;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.navbar-expand-lg {
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-}
-
 .navigation-links {
   display: flex;
   margin-top: 40px;
